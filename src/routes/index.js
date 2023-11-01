@@ -1,6 +1,6 @@
-const { Router } = require("express")
+const express = require("express")
 const fs = require("fs")
-const route = Router()
+const route = express.Router()
 
 const path = __dirname;
 
