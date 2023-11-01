@@ -18,6 +18,7 @@ app.use("/api", require("./routes"))
 app.get("/", (req, res) => {
     res.send("Hola")
 })
+
 app.listen(port, () => {
     console.log(`Server is listen in localhost:${port}`);
 })
